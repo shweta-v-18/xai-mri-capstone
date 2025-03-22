@@ -1,0 +1,131 @@
+<svg width="1440" height="900" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background grid -->
+  <pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse">
+    <path d="M100 0L0 0L0 100" stroke="#4FD1C5" stroke-width="0.2" fill="none" opacity="0.3"/>
+  </pattern>
+  <rect width="1440" height="900" fill="url(#grid)"/>
+  
+  <!-- Neural network nodes and connections -->
+  <g opacity="0.6">
+    <!-- Nodes -->
+    <circle cx="200" cy="150" r="3" fill="#4FD1C5"/>
+    <circle cx="350" cy="100" r="3" fill="#4FD1C5"/>
+    <circle cx="500" cy="200" r="3" fill="#4FD1C5"/>
+    <circle cx="650" cy="120" r="3" fill="#4FD1C5"/>
+    <circle cx="800" cy="180" r="3" fill="#4FD1C5"/>
+    <circle cx="950" cy="90" r="3" fill="#4FD1C5"/>
+    <circle cx="1100" cy="220" r="3" fill="#4FD1C5"/>
+    <circle cx="1250" cy="130" r="3" fill="#4FD1C5"/>
+    
+    <circle cx="150" cy="300" r="3" fill="#4FD1C5"/>
+    <circle cx="300" cy="350" r="3" fill="#4FD1C5"/>
+    <circle cx="450" cy="280" r="3" fill="#4FD1C5"/>
+    <circle cx="600" cy="320" r="3" fill="#4FD1C5"/>
+    <circle cx="750" cy="270" r="3" fill="#4FD1C5"/>
+    <circle cx="900" cy="330" r="3" fill="#4FD1C5"/>
+    <circle cx="1050" cy="290" r="3" fill="#4FD1C5"/>
+    <circle cx="1200" cy="340" r="3" fill="#4FD1C5"/>
+    <circle cx="1350" cy="310" r="3" fill="#4FD1C5"/>
+    
+    <circle cx="200" cy="450" r="3" fill="#4FD1C5"/>
+    <circle cx="350" cy="400" r="3" fill="#4FD1C5"/>
+    <circle cx="500" cy="470" r="3" fill="#4FD1C5"/>
+    <circle cx="650" cy="420" r="3" fill="#4FD1C5"/>
+    <circle cx="800" cy="480" r="3" fill="#4FD1C5"/>
+    <circle cx="950" cy="430" r="3" fill="#4FD1C5"/>
+    <circle cx="1100" cy="490" r="3" fill="#4FD1C5"/>
+    <circle cx="1250" cy="440" r="3" fill="#4FD1C5"/>
+    
+    <circle cx="150" cy="600" r="3" fill="#4FD1C5"/>
+    <circle cx="300" cy="550" r="3" fill="#4FD1C5"/>
+    <circle cx="450" cy="620" r="3" fill="#4FD1C5"/>
+    <circle cx="600" cy="570" r="3" fill="#4FD1C5"/>
+    <circle cx="750" cy="630" r="3" fill="#4FD1C5"/>
+    <circle cx="900" cy="580" r="3" fill="#4FD1C5"/>
+    <circle cx="1050" cy="640" r="3" fill="#4FD1C5"/>
+    <circle cx="1200" cy="590" r="3" fill="#4FD1C5"/>
+    <circle cx="1350" cy="650" r="3" fill="#4FD1C5"/>
+    
+    <circle cx="200" cy="750" r="3" fill="#4FD1C5"/>
+    <circle cx="350" cy="700" r="3" fill="#4FD1C5"/>
+    <circle cx="500" cy="770" r="3" fill="#4FD1C5"/>
+    <circle cx="650" cy="720" r="3" fill="#4FD1C5"/>
+    <circle cx="800" cy="780" r="3" fill="#4FD1C5"/>
+    <circle cx="950" cy="730" r="3" fill="#4FD1C5"/>
+    <circle cx="1100" cy="790" r="3" fill="#4FD1C5"/>
+    <circle cx="1250" cy="740" r="3" fill="#4FD1C5"/>
+    
+    <!-- Connections - Layer 1 to 2 -->
+    <line x1="200" y1="150" x2="300" y2="350" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="200" y1="150" x2="450" y2="280" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="350" y1="100" x2="300" y2="350" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="350" y1="100" x2="450" y2="280" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="350" y1="100" x2="600" y2="320" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="500" y1="200" x2="450" y2="280" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="500" y1="200" x2="600" y2="320" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="500" y1="200" x2="750" y2="270" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="650" y1="120" x2="600" y2="320" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="650" y1="120" x2="750" y2="270" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="650" y1="120" x2="900" y2="330" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="800" y1="180" x2="750" y2="270" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="800" y1="180" x2="900" y2="330" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="800" y1="180" x2="1050" y2="290" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="950" y1="90" x2="900" y2="330" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="950" y1="90" x2="1050" y2="290" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="950" y1="90" x2="1200" y2="340" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="1100" y1="220" x2="1050" y2="290" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="1100" y1="220" x2="1200" y2="340" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="1100" y1="220" x2="1350" y2="310" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="1250" y1="130" x2="1200" y2="340" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="1250" y1="130" x2="1350" y2="310" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    
+    <!-- Connections - Layer 2 to 3 -->
+    <line x1="150" y1="300" x2="200" y2="450" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="150" y1="300" x2="350" y2="400" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="300" y1="350" x2="200" y2="450" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="300" y1="350" x2="350" y2="400" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="300" y1="350" x2="500" y2="470" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="450" y1="280" x2="350" y2="400" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="450" y1="280" x2="500" y2="470" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="450" y1="280" x2="650" y2="420" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="600" y1="320" x2="500" y2="470" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="600" y1="320" x2="650" y2="420" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="600" y1="320" x2="800" y2="480" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="750" y1="270" x2="650" y2="420" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="750" y1="270" x2="800" y2="480" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="750" y1="270" x2="950" y2="430" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="900" y1="330" x2="800" y2="480" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="900" y1="330" x2="950" y2="430" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="900" y1="330" x2="1100" y2="490" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="1050" y1="290" x2="950" y2="430" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="1050" y1="290" x2="1100" y2="490" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="1050" y1="290" x2="1250" y2="440" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="1200" y1="340" x2="1100" y2="490" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="1200" y1="340" x2="1250" y2="440" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    <line x1="1350" y1="310" x2="1250" y2="440" stroke="#4FD1C5" stroke-width="0.5" opacity="0.3"/>
+    
+    <!-- Brain outline -->
+    <path d="M720 300C820 300 900 380 900 480C900 580 820 660 720 660C620 660 540 580 540 480C540 380 620 300 720 300Z" stroke="#4FD1C5" stroke-width="0.5" stroke-dasharray="5 5" opacity="0.2"/>
+    
+    <!-- Animated pulses -->
+    <circle cx="720" cy="480" r="100" stroke="#4FD1C5" stroke-width="1" opacity="0.1">
+      <animate attributeName="r" from="100" to="150" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" from="0.1" to="0" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="720" cy="480" r="80" stroke="#4FD1C5" stroke-width="1" opacity="0.15">
+      <animate attributeName="r" from="80" to="130" dur="4s" begin="1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" from="0.15" to="0" dur="4s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="720" cy="480" r="60" stroke="#4FD1C5" stroke-width="1" opacity="0.2">
+      <animate attributeName="r" from="60" to="110" dur="4s" begin="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" from="0.2" to="0" dur="4s" begin="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Digital circuit elements -->
+  <g opacity="0.4">
+    <path d="M0 450H1440" stroke="#4FD1C5" stroke-width="0.3" stroke-dasharray="10 5"/>
+    <path d="M720 0V900" stroke="#4FD1C5" stroke-width="0.3" stroke-dasharray="10 5"/>
+  </g>
+</svg>
+
